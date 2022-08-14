@@ -1,0 +1,37 @@
+.shoping_container{
+    width: 80%;
+    height: 80vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+.shoping_container_name{
+    padding: 15px;
+    font-weight: 600;
+
+    
+}
+
+.shoping_container_price{
+    padding: 15px;
+    color: #808080;
+}
+
+.shoping_close{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 20px;
+    right: 20px;
+    background-image: url(/img/cancel.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:  contain;
+    cursor: pointer;
+}
